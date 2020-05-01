@@ -1,0 +1,1 @@
+cmd_/home/setr/projets/laboratoire5/setr_driver_irq.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/setr/projets/laboratoire5/setr_driver_irq.ko /home/setr/projets/laboratoire5/setr_driver_irq.o /home/setr/projets/laboratoire5/setr_driver_irq.mod.o ;  true
